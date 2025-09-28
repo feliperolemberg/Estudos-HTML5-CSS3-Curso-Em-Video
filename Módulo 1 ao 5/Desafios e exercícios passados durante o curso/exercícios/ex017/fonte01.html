@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes em CSS</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  body {
+    font-family: 'Work Sans', sans-serif;
+    
+    /* Medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+
+    16px geralmente é igual a 1em
+    */
+
+    font-weight: normal;
+    /* lighter, normal, bold, bolder
+    100 - 900  */
+    font-style: normal;
+    /* italic, normal, oblique*/
+
+    /* shorthand font 
+      font-style -> font-weight -> font-size -> font-family
+    */
+    font: normal normal 1em 'Work Sans', sans-serif;
+  }
+  h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+  }
+</style>
+<body>
+  <h1>Trabalhando com fontes</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ullam minima animi necessitatibus nostrum pariatur, distinctio repellendus porro, deleniti doloribus quibusdam veniam totam libero in at, unde architecto nesciunt quam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quaerat doloribus perferendis molestias, ratione fugit voluptatem odit vitae ut pariatur eos ullam voluptatibus voluptates sit doloremque debitis. Deleniti, et. Cupiditate!</p>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint debitis vel blanditiis, numquam dolorem totam eligendi autem nostrum odit optio eius. Asperiores accusamus, eos nisi culpa nemo fuga saepe inventore?</p>
+  <h2>Subtítulo do exercício</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati blanditiis sapiente eligendi mollitia suscipit eveniet, enim ratione fugiat aperiam molestiae! Ab harum dolore dolor voluptatibus provident corrupti totam necessitatibus recusandae!</p>
+</body>
+</html>

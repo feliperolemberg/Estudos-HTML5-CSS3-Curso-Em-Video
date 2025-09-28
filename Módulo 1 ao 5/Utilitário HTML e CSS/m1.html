@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 1 (M1)</title>
+</head>
+<body>
+  <h1>Módulo 1</h1>
+  <a href="index.html" hreflang="pt-br" rel="prev" target="_self">Voltar para a página principal</a>
+  <ul type="square">
+    <li><strong>Exemplificação de uma tag html e um seletor das CSS</strong>
+      <p><pre>
+&lt;img src="foto.png" alt="Exemplo de foto"&gt;
+
+h1 {
+font-family: Arial;
+font-size: 20pt;
+color: blue;
+}       </pre></p>
+    </li>
+
+    <li><strong>Primeiros passos</strong>
+      <p><code>!</code> - Criação do código base HTML5</p>
+      <p><code>&lt;p&gt;&lt;/p&gt;</code> - Criação de parágrafos</p>
+      <p><code>&lt;br&gt;</code> - Pular linha</p>
+      <p><code>&lt;hr&gt;</code> - Linha horizontal</p>
+      <ul type="circle">
+        <li>Tabela de símbolos especiais:
+          <p>
+            <picture>
+              <source media="(max-width: 560px)" srcset="imagens/simbolos-pp.png" type="image/png">
+              <source media="(max-width: 860px)" srcset="imagens/simbolos-p.png" type="image/png">
+              <img src="imagens/simbolos.png" alt="Imagem dos símbolos que podem ser usados nos conteúdos HTML">
+            </picture>
+          </p>
+        </li>
+      </ul>
+      <p><code>&lt;link rel="shortcut icon" href="favicon.io" type="image/x-icon"&gt;</code> - Utilização de favicon (dentro da tag head) <code>[link:favicon]</code></p>
+      <p><code>&lt;!--&nbsp; --&gt;</code> - Realizar comentários</p>
+      <p><code>&amp;#x1F604</code> - Utilização de emojis</p>
+    </li>
+
+    <li><strong>Hierarquia de títulos</strong>
+      <p><code>&lt;h1&gt;&lt;/h1&gt;</code> até o <code>&lt;h6&gt;&lt;/h6&gt;</code> - Criação de títulos</p>
+      <p><code>lorem</code> - Criação de texto aleatório</p>
+    </li>
+
+    <li><strong>Adição de imagens e tags semânticas</strong>
+      <p><code>&lt;img src="foto.png" alt="Exemplo de foto"&gt;</code> - Adicionar imagem (não precisa de fechamento)</p>
+      <p><code>&lt;address&gt;&lt;/address&gt;</code> - Adicionar endereço</p>
+      <p><code>&lt;strong&gt;&lt;/strong&gt;</code> - Colocar termo em destaque</p>
+      <p><code>&lt;em&gt;&lt;/em&gt;</code> - Colocar termo em ênfase</p>
+      <p><code>&lt;mark&gt;&lt;/mark&gt;</code> - Inserir texto marcado</p>
+      <p><code>&lt;del&gt;&lt;/del&gt;</code> - Inserir texto deletado</p>
+      <p><code>&lt;ins&gt;&lt;/ins&gt;</code> - Adicionar texto inserido</p>
+      <p><code>&lt;sup&gt;&lt;/sup&gt;</code> - Inserir texto localizado em posição superior</p>
+      <p><code>&lt;sub&gt;&lt;/sub&gt;</code> - Inserir texto localizado em posição inferior</p>
+      <p><code>&lt;small&gt;&lt;/small&gt;</code> - Inserir texto menor</p>
+      <p><code>&lt;q&gt;&lt;/q&gt;</code> - Inserir citação simples</p>
+      <p><code>&lt;blockquote cite="link"&gt;&lt;/blockquote&gt;</code> - Inserir um bloco de citação</p>
+      <p><code>&lt;abbr tittle="Texto original"&gt;&lt;/abbr&gt;</code> - Abreviação</p>
+      <p><code>&lt;pre&gt;&lt;/pre&gt;</code> - Preservação de formatação</p>
+      <p><code>&lt;code&gt;&lt;/code&gt;</code> - Códigos de programação</p>
+      <p><code>&lt;bdo dir="rtl"&gt;&lt;bdo&gt;</code> - Inverter o texto escrito</p>
+    </li>
+
+    <li><strong>Listas ordenadas e não ordenadas</strong>
+      <p><code>&lt;ol type="1" or "a" or "A" or "i" or "I"&gt;&lt;/ol&gt;</code> - Inserção de lista ordenada</p>
+      <p><code>&lt;ul type="disc" or "circle" or "square"&gt;&lt;/ul&gt;</code> - Inserção de lista não ordenada</p>
+      <p><code>&lt;li&gt;&lt;/li&gt;</code> - Linhas da lista em questão</p>
+      <p><code>&lt;dl&gt;&lt;/dl&gt;</code> - Inserção de lista de definições</p>
+      <p><code>&lt;dt&gt;&lt;/dt&gt;</code> - Termo de uma lista de definições</p>
+      <p><code>&lt;dd&gt;&lt;/dd&gt;</code> - Descrição de um termo em uma lista de definições</p>
+    </li>
+    
+    <li><strong>Links</strong>
+      <p><code>&lt;a href="link" hreflang="language" target="_blank or _self" rel="external or next or prev or nofollow or author"&gt;&lt;/a&gt;</code> - Link interno ou externo</p> 
+      <p><code>../</code> - Voltar uma pasta em um caminho</p>
+      <p><code>&lt;a href="pasta/meuarquivo.pdf" download="meuarquivo.pdf" type="application/pdf"&gt;&lt;/a&gt;</code> - Link para download</p> 
+    </li>
+
+    <li><strong>Mídias</strong>
+      <p><code>&lt;picture&gt;&lt;/picture&gt;</code> - Tags onde o conteúdo serão as imagens utilizadas</p>
+      <p><code>&lt;source media="(max-width: 0px)" srcset="imagem.jpg" type="image/jpg"&gt;&lt;/source&gt;</code> - As opções de imagens a depender do tamanho <code>[source:media:type]</code></p>
+      <p><code>&lt;audio src="musica.mp3" preload="auto or metadata or none" autoplay controls loop&gt;&lt;/audio&gt;</code> - Utilização de áudio único</p>
+      <p><code>&lt;source src="musica.mp3" type="audio/mpeg"&gt;&lt;/source&gt;</code> - As opções de áudio a depender da compatibilidade <code>[source:src]</code></p>
+      <p><code>&lt;video src="video.mp4" controls width="0px" poster="imagens/thumb.jpg" autoplay loop preload="metadata"&gt;&lt;/video&gt;</code> - Utilização de vídeo único</p>
+      <p><code>&lt;source src="midia/video.mp4" type="video/mp4"&gt;&lt;/source&gt;</code> - As opções de vídeo a depender da compatibilidade <code>[source:src]</code></p>
+    </li>
+
+    <li><strong>Estilos CSS</strong>
+      <p><code>&lt;p style="background-color: yellow;"&gt;&lt;/p&gt;</code> - Estilo CSS inline</p>
+      <p>Estilo CSS interno - 
+<pre><code>&lt;style&gt; 
+body{
+  background-color: blue;
+}
+&lt;/style&gt;</code></pre>
+      </p>
+      <p><code>&lt;link rel="stylesheet" href="style.css"&gt;</code> - Criação de ligação para o estilo CSS externo <code>[link:css]</code></p>
+      <p><code>/* */</code> - Realizar comentários nas CSS</p>
+    </li>
+  </ul>
+</ul>
+</body>
+</html>

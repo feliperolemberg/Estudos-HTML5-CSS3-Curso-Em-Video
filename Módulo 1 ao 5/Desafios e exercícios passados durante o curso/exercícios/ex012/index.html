@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos com HTML5</title>
+</head>
+<body>
+  <!--MP4 M4V WEBM OGV-->
+  <h1>Inserindo vídeos hospedados localmente</h1>
+  <p>Este vídeo está hospedado no meu próprio servidor.</p>
+  <video controls width="500px" height="315px" poster="imagens/thumb_futebol.jpg" loop autoplay>
+    <source src="midia/futebol.mp4" type="video/mp4">
+    <source src="midia/futebol.webm" type="video/webm">
+    <source src="midia/futebol.m4v" type="video/mp4">
+    <source src="midia/futebol.ogv" type="video/ogg">
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+  </video>
+  <h1>Inserindo vídeos do YouTube</h1>
+  <iframe width="500" height="315" src="https://www.youtube.com/embed/Yy86WS7pzoM?si=4XfjbeM3sjddZr5j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h1>Inserindo vídeos do Vimeo</h1>
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/203621765?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:500px;height:315px;" title="OREO- NEYMAR JR."></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utilitário HTML e CSS</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    :root {
+      --cor1: #79BDFF;
+      --cor2: #EEFC77;
+      --cor3: #FF8078;
+    }
+
+    body {
+      background-color: var(--cor1);
+    }
+
+    header > h1.titulo-principal {
+      background-color: var(--cor2);
+      border-radius: 0px 0px 50px 50px;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.392);
+      font-family: "Fontdiner Swanky", serif;
+      font-size: 2em;
+      margin: 0px auto 5px auto;
+      max-width: 500px;
+      min-width: 300px;
+      padding: 8px;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.205);
+    }
+
+    header > h1.titulo-principal::before {
+      content: '\1F527';
+    }
+
+    nav {
+      background-color: white;
+      border-radius: 50px;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.392);
+      margin: auto;
+      margin-bottom: 5px;
+      max-width: 500px;
+      min-width: 300px;
+      padding: 8px;
+    }
+    
+    nav > a {
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.392);
+      display: block;
+      height: 200px;
+      margin: 10px auto 10px auto;
+      padding: 5px;
+      width: 200px;
+    }
+
+    nav a:hover {
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.892);
+      filter: brightness(1.01);
+      transform: scale(1.05);
+    }
+
+    nav > a > img.thumb {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
+
+    nav > p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 0.8em;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    hr {
+      border: 1px solid black;
+      margin: 5px;
+    }
+  </style>
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1 class="titulo-principal">Utilitário HTML e CSS</h1>
+    <nav>
+      <a href="m1.html" hreflang="pt-br" rel="next" target="_self"><img class="thumb" src="imagens/thumb-modulo-1.jpg" alt="Thumbnail do Módulo 1 do Curso de HTML5 e CSS3 do Curso em Vídeo."></a>
+      <p>Módulo 1</p>
+      <hr>
+      <a href="m2.html" hreflang="pt-br" rel="next" target="_self"><img class="thumb" src="imagens/thumb-modulo-2.jpg" alt="Thumbnail do Módulo 2 do Curso de HTML5 e CSS3 do Curso em Vídeo."></a>
+      <p>Módulo 2</p>
+      <hr>
+      <a href="m3.html"><img class="thumb" src="imagens/thumb-modulo-3.jpg" alt="Thumbnail do Módulo 3 do Curso de HTML5 e CSS3 do Curso em Vídeo."></a>
+      <p>Módulo 3</p>
+      <hr>
+      <a href="#"><img class="thumb" src="imagens/thumb-modulo-4.jpg" alt="Thumbnail do Módulo 4 do Curso de HTML5 e CSS3 do Curso em Vídeo."></a>
+      <p>Módulo 4</p>
+      <hr>
+      <a href="#"><img class="thumb" src="imagens/thumb-modulo-5.jpg" alt="Thumbnail do Módulo 5 do Curso de HTML5 e CSS3 do Curso em Vídeo."></a>
+      <p>Módulo 5</p>
+    </nav>
+  </header>
+</body>
+</html>

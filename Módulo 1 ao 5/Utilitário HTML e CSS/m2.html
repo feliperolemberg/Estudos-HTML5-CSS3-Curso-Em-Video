@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 2 (M2)</title>
+</head>
+<body>
+  <h1>Módulo 2</h1>
+  <a href="index.html">Voltar para a página principal</a>
+  <ul type="square">
+    <li><strong>Representação de cores nas CSS</strong>
+      <p><code>&lt;p style="color: blue;"&gt;&lt;/p&gt;</code> - Representação por nome</p>
+      <p><code>&lt;p style="color: #0000ff;"&gt;&lt;/p&gt;</code> - Representação por código hexadecimal</p>
+      <p><code>&lt;p style="color: rgb(0, 0, 255);"&gt;&lt;/p&gt;</code> - Representação em RGB (Red, Green, Blue)</p>
+      <p><code>&lt;p style="color: hsl(240, 100%, 50%);"&gt;&lt;/p&gt;</code> - Representação por características (Hue, Saturation, Luminosity)</p>
+      <p><code>&lt;p style="color: rgb(0, 0, 255, 0.532);"&gt;&lt;/p&gt;</code> - Representação em RGB com valor de transparência</p>
+      <p><code>&lt;p style="color: hsl(240, 100%, 50%, 0.532);"&gt;&lt;/p&gt;</code> - Representação por características com valor de transparência</p>
+      <picture>
+        <source media="(max-width: 565px)" srcset="imagens/cqf-p.jpg" type="image/jpg">
+        <source media="(max-width: 765px)" srcset="imagens/cqf-m.jpg" type="image/jpg">
+        <source media="(max-width: 1065px)" srcset="imagens/cqf-g.jpg" type="image/jpg">
+        <img src="imagens/cqf.jpg" alt="Cores quentes e frias do círculo cromático">
+      </picture>
+      <p>Site interessante na escolha de cores e paletas: <a href="https://color.adobe.com/pt/create/color-wheel" hreflang="pt-br" target="_blank" rel="external">Adobe Color</a></p>
+      <p><code>&lt;p style="background-image: linear-gradient(to right or to left or to top or to bottom or deg, yellow, gray);"&gt;&lt;/p&gt;</code> - Representação de degradê linear em um parágrafo utilizando as CSS</p>
+      <p><code>&lt;p style="background-image: radial-gradient(circle, green, gray);&gt;&lt;/p&gt;"</code> - Representação de degradê radial em um parágrafo utilizando as CSS</p>
+      <p><code>* {}</code> - Utilização nas CSS para configurações globais</p>
+    </li>
+    <li><strong>Utilização de fontes com CSS</strong>
+      <p><code>&lt;p style="font-family: 'Courier New', Courier, monospace"&gt;&lt;/p&gt;</code> - Escolha da sequência de famílias tipográficas utilizada, com exemplificação</p>
+      <p><code>&lt;p style="font-size: cm or mm or in or px or pt or pc or em or ex or rem or vw or vh or %"&gt;</code> - Escolha do tamanho da fonte, com todas as principais unidades de medidas utilizadas</p>
+      <p><code>&lt;p style="font-weight: lighter or normal or bold or bolder or 100->900"&gt;&lt;/p&gt;</code> - Escolha do peso da fonte</p>
+      <p><code>&lt;p style="font-style: italic or normal or oblique"&gt;&lt;/p&gt;</code> - Possibilidade de utilizar o estilo itálico no texto</p>
+      <p><code>&lt;p style="text-decoration: none or underline"&gt;&lt;/p&gt;</code> - Possibilidade de colocar no texto a decoração underline</p>
+      <picture>
+        <source media="(max-width: 650px)" srcset="imagens/sf-p.jpg" type="image/jpg">
+        <img src="imagens/sf.jpg" alt="Exemplo de utilização do shorthand font">
+      </picture>
+      <p>Link para site que disponibliza fontes para download: <a href="https://www.dafont.com/pt/" rel="external" target="_blank">DaFont</a></p>
+      <picture>
+        <source media="(max-width: 675px)" srcset="imagens/fontesexternas-p.jpg" type="image/jpg">
+        <source media="(max-width: 1275px)" srcset="imagens/fontesexternas-m.jpg" type="image/jpg">
+        <img src="imagens/fontesexternas.jpg" alt="Como adicionar fontes externas nas CSS">
+      </picture>
+      <p><code>&lt;p style="text-align: center or justify or left or right"&gt;&lt;/p&gt;</code> - Alinhamento do texto com as CSS</p>
+      <p><code>&lt;p style="text-indent: 5px"&gt;&lt;/p&gt;</code> - Exemplificação de espaçamento no texto</p>
+    </li>
+    <li><strong>Seletores personalizados, pseudo-classes e pseudo-elementos</strong>
+      <p><picture>
+          <source media="(max-width: 625px)" srcset="imagens/seletores-m.jpg" type="image/jpg">
+          <img src="imagens/seletores.jpg" alt="Utilização de seletores personalizados">
+      </picture></p>
+      <p>Pseudo-classes são estados ou condições específicas de um elemento que permitem aplicar estilos em situações especiais. Exemplos de pseudo-classes: <code>:hover :visited :active</code></p>
+      <picture>
+        <source media="(max-width: 700px)" srcset="imagens/pseudo-classes-m.jpg" type="image/jpg">
+        <img src="imagens/pseudo-classes.jpg" alt="Utilização de pseudo-classes em CSS">
+      </picture>
+      <p>Pseudo-elementos são partes de um elemento que podem ser acessadas e estilizadas através das CSS. Exemplos de pseudo-elementos: <code>::after ::before</code></p>
+      <img src="imagens/identificadores.jpg" alt="Seletores e identificadores de inúmeras ocasiões nas CSS">
+    </li>
+    <li><strong>Modelo de Caixas</strong>
+      <p><picture>
+        <source media="(min-width: 800px)" srcset="imagens/tiposdecaixa-g.jpg" type="image/jpg">
+        <source media="(min-width: 590px)" srcset="imagens/tiposdecaixa-m.jpg" type="image/jpg">
+        <img src="imagens/tiposdecaixa-p.jpg" alt="Tipos de Caixa na HTML5 e CSS3">
+      </picture></p>
+      <picture>
+        <source media="(max-width: 700px)" srcset="imagens/propriedadesboxmodel-p.jpg" type="image/jpg">
+        <source media="(max-width: 980px)" srcset="imagens/propriedadesboxmodel-m.jpg" type="image/jpg">
+        <img src="imagens/propriedadesboxmodel.jpg" alt="Principais propriedades na estilização de caixas com as CSS">
+      </picture>
+      <p><code>&lt;p style="border-style: solid or dashed or groove or double or dotted;"&gt;&lt;/p&gt;</code> - Exemplo com os principais tipos de estilos de bordas</p>
+      <p><code>&lt;header&gt;&lt;/header&gt; &lt;main&gt;&lt;/main&gt; &lt;section&gt;&lt;/section&gt; &lt;article&gt;&lt;/article&gt; &lt;aside&gt;&lt;/aside&gt; &lt;footer&gt;&lt;/footer&gt;</code> - As Grouping Tags</p>
+      <p><code>&lt;p style="box-shadow: 1px 1px 1px black;"&gt;&lt;/p&gt;</code> - Exemplo de utilização de sombras em caixas</p>
+      <p><code>&lt;p style="border-radius: 10px 0px"&gt;&lt;/p&gt;</code> - Exemplo de utilização de bordas arredondadas em caixas</p>
+      <picture>
+        <source media="(max-width: 650px)" srcset="imagens/bordasdecoradas-p.jpg" type="image/jpg">
+        <img src="imagens/bordasdecoradas.jpg" alt="Exemplo de utilização de bordas decoradas em caixas com as CSS">
+      </picture>
+    </li>
+    <li><strong>Primeiro Mini-Projeto</strong>
+      <p>Link para site que permite a projeção e o design de páginas web: <a href="https://mockflow.com/" rel="external" target="_blank">MockFlow</a></p>
+      <picture>
+        <source media="(max-width: 700px)" srcset="imagens/variaveis-css-p.png" type="image/png">
+        <img src="imagens/variaveis-css.png" alt="Utilização de variáveis nas CSS">
+      </picture>
+      <p><img src="imagens/estilo-imagem.jpg" alt="Estilização de uma imagem com as CSS"></p>
+      <p><img src="imagens/inicio-responsividade.jpg" alt="Aplicação de uma técnica de responsividade em uma caixa"></p>
+      <p><img src="imagens/utilizacao-pseudo-elemento.jpg" alt="Utilização de um pseudo-elemento nas configurações das CSS"></p>
+      <p><img src="imagens/propriedades-aplicadas-nas-CSS.jpg" alt="Exemplificação de algumas propriedades utilizadas nas CSS"></p>
+      <p><img src="imagens/configuracao-ul-bloco.jpg" alt="Configuração e ajuste de listas dentro de um bloco"></p>
+      <p><img src="imagens/configuracoes-video-responsivo.jpg" alt="Configurações realizadas para tornar um vídeo responsivo"></p>
+    </li>
+  </ul>
+</body>
+</html>
