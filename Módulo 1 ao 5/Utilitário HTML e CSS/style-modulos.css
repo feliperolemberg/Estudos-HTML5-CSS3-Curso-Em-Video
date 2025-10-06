@@ -84,7 +84,7 @@ main > section > ul > li > p > code, .código {
   font-size: 1.1em;
 }
 
-main > section > ul > li > img {
+main > section > ul > li > picture > img {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.238);
   display: block;
   margin: auto;
