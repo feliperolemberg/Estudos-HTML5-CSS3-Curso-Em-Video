@@ -11,6 +11,9 @@
 
     table {
       border-collapse: collapse;
+      position: relative; 
+      /* Configuração estilística necessária na tabela 
+      para gerar cabeçalho fixo na rolagem */
       width: 500px;
     }
 
@@ -24,6 +27,12 @@
     thead, tfoot{
       background-color: gray;
       color: white;
+    }
+
+    thead > tr > th {
+      background-color: gray;
+      position: sticky;
+      top: -1px;
     }
 
     tbody > tr:nth-child(odd) /*odd - ímpar or even - par*/ {
