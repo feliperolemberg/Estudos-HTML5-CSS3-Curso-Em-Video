@@ -79,16 +79,21 @@ main > section > ul > li > p {
 }
 
 main > section > ul > li > p > a {
-  background-color: #79bcff3c;
+  background-color: rgba(121, 188, 255, 0.212);
   color: black;
   font-size: 1.1em;
   text-decoration: none;
 }
 
+main > section > ul > li > p > a::before {
+  content: '\1F517';
+}
+
 main > section > ul > li > p > a:hover {
   display: inline-block;
   filter: brightness(1.02);
-  transform: scale(1.05);
+  font-weight: bold;
+  transform: scale(1.04);
 }
 
 main > section > ul > li > p > code, .código {
