@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Módulo 3 (M3)</title>
-  <style>
-    img {
-      display: block;
-      margin-bottom: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="style-modulos.css">
+  <link rel="shortcut icon" href="imagens/favicon-m3.ico" type="image/x-icon">
 </head>
 <body>
   <header>
@@ -17,24 +13,48 @@
   </header>
   <main>
     <nav>
-      <a href="index.html" hreflang="pt-br" rel="prev" target="_self">Voltar para a página inicial</a>
+      <a href="index.html" hreflang="pt-BR" rel="prev" target="_self"><img src="imagens/botao-inicial.png" alt="Botão para voltar a página inicial"></a>
+      <a href="m2.html" hreflang="pt-BR" rel="prev" target="_self"><img src="imagens/botao-voltar.png" alt="Botão para voltar a página anterior"></a>
+      <a href="m4.html" hreflang="pt-BR" rel="next" target="_self"><img src="imagens/botao-proxima.png" alt="Botão para ir para a página do módulo seguinte"></a>
     </nav>
     <section>
       <ul>
         <li><strong>Imagens de fundo</strong>
           <p><code>&lt;div style="background-image: url('imagens/fundo.jpg'); display: inline-block; height: 200px; width: 200px; "&gt;&lt;/div&gt;</code> - Exemplificação do uso da propriedade <code>background-image</code></p>
-          <img src="imagens/propriedades-imagens-fundo.png" alt="Algumas propriedades aplicadas em imagens de fundo">
-          <img src="imagens/propriedade-posicao-imagem-fundo.png" alt="Propriedade que altera o posicionamento de uma imagem de fundo em uma caixa">
+          <picture>
+            <source media="(max-width: 590px)" srcset="imagens/propriedades-imagens-fundo-p.jpg" type="image/jpg">
+            <img src="imagens/propriedades-imagens-fundo.png" alt="Algumas propriedades aplicadas em imagens de fundo">
+          </picture>
+          <picture>
+            <source media="(max-width: 450px)" srcset="imagens/propriedade-posicao-imagem-fundo-p.jpg" type="image/jpg">
+            <img src="imagens/propriedade-posicao-imagem-fundo.png" alt="Propriedade que altera o posicionamento de uma imagem de fundo em uma caixa">
+          </picture>
           <img src="imagens/propriedade-tamanho-imagem-fundo.png" alt="Propriedade que altera o tamanho de uma imagem de fundo em uma caixa">
-          <img src="imagens/centralizacao-vertical.png" alt="Configurações para realizar a centralização vertical de uma caixa">
+          <picture>
+            <source media="(max-width: 650px)" srcset="imagens/centralizacao-vertical-p.jpg" type="image/jpg">
+            <img src="imagens/centralizacao-vertical.png" alt="Configurações para realizar a centralização vertical de uma caixa">
+          </picture>
           <img src="imagens/propriedades-letras-maiusculas.jpg" alt="Exemplos de propriedades quem podem ser utilizadas para transformar letras em maiúsculas">
         </li>
+
         <li><strong>Tabelas em HTML5</strong>
-          <img src="imagens/estruturatabelas.png" alt="Estruturação básica de uma tabela em HTML5">
-          <img src="imagens/alinhamento-horizontal-vertical-conteudo-tabelas.png" alt="Alinhamento horizontal e vertical do conteúdo de uma tabela">
+          <picture>
+            <source media="(max-width: 540px)" srcset="imagens/estruturatabelas-p.jpg" type="image/jpg">
+            <img src="imagens/estruturatabelas.png" alt="Estruturação básica de uma tabela em HTML5">
+          </picture>
+          <picture>
+            <source media="(max-width: 640px)" srcset="imagens/alinhamento-horizontal-vertical-conteudo-tabelas-p.jpg" type="image/jpg">
+            <img src="imagens/alinhamento-horizontal-vertical-conteudo-tabelas.png" alt="Alinhamento horizontal e vertical do conteúdo de uma tabela">
+          </picture>
           <img src="imagens/titulos-legendas-tabelas.png" alt="Utilização de títulos em tabelas">
-          <img src="imagens/escopo-titulos-tabelas.png" alt="Utilização de tag para definição de direção do escopo da tabela">
-          <img src="imagens/cabecalho-fixo-1.png" alt="Estilização necessária para fixar cabeçalho de uma tabela na rolagem da página">
+          <picture>
+            <source media="(max-width: 540px)" srcset="imagens/escopo-titulos-tabelas-p.jpg" type="image/jpg">
+            <img src="imagens/escopo-titulos-tabelas.png" alt="Utilização de tag para definição de direção do escopo da tabela">
+          </picture>
+          <picture>
+            <source media="(max-width: 540px)" srcset="imagens/cabecalho-fixo-1-p.jpg" type="image/jpg">
+            <img src="imagens/cabecalho-fixo-1.png" alt="Estilização necessária para fixar cabeçalho de uma tabela na rolagem da página">
+          </picture>
           <img src="imagens/cabecalho-fixo-2.png" alt="Estilização necessária para fixar cabeçalho de uma tabela na rolagem da página (2)">
         </li>
       </ul>
