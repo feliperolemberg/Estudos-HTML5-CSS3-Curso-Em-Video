@@ -2,10 +2,8 @@
 ## Links
 - Para o [site do curso](https://www.cursoemvideo.com/curso/html5-css3-modulo1/) 🔗.
 - Para o [canal do YouTube](https://www.youtube.com/@cursoemvideo) 🔗 do Curso em Vídeo.
-***
 ## Sobre o repositório
 O repositório foi criado com o objetivo de documentar o meu progresso nas tecnologias **HTML5** e **CSS3** através da realização dos *exercícios* 📝 e *desafios* 🏆 propostos durante o curso. Todos estão hospedados através do recurso GitHub Pages aqui do próprio GitHub e disponibilizados para visualização online através dos links abaixo. Agradeço o professor [Gustavo Guanabara](https://www.instagram.com/gustavoguanabara/) 🔗 por todos os ensinamentos apresentados durante a realização das aulas.
-***
 ## Módulos
 O curso foi dividido em 5 módulos:
 - 📖 Módulo 1 - Primeiros passos HTML + CSS - **Concluído ✅**
