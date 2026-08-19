@@ -19,7 +19,9 @@ Conceitos básicos, preparação do ambiente, semântica do HTML5, textos, títu
   - Exercício 003 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex003/) 🌐
   - Exercício 004 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex004/) 🌐
   - Exercício 006 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex006/) 🌐
-  - Exercício 007 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex007/html5.html) 🌐
+  - Exercício 007:
+    - Parte 1: - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex007/html4.html) 🌐
+    - Parte 2: - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex007/html5.html) 🌐
   - Exercício 008 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex008/) 🌐
   - Exercício 008b - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex008b/) 🌐
   - Exercício 009 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex009/) 🌐
