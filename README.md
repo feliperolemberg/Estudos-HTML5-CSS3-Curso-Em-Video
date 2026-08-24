@@ -8,8 +8,8 @@ O repositório foi criado com o objetivo de documentar o meu progresso nas tecno
 O curso foi dividido em 5 módulos:
 - 📖 Módulo 1 - Primeiros passos HTML + CSS - **Concluído ✅**
 - 📖 Módulo 2 - Deixando as coisas mais bonitas - **Concluído ✅**
-- 📖 Módulo 3 - Colocando um protótipo no ar - **Em andamento ⏳**
-- 📖 Módulo 4 - Aprofundando os conhecimentos - 🚧
+- 📖 Módulo 3 - Colocando um protótipo no ar - **Concluído ✅**
+- 📖 Módulo 4 - Aprofundando os conhecimentos - **Em andamento ⏳**
 - 📖 Módulo 5 - Novas tecnologias - 🚧
 ### 📖 Módulo 1 - Primeiros passos HTML + CSS
 Conceitos básicos, preparação do ambiente, semântica do HTML5, textos, títulos, ligações, multimídia e estilos.
@@ -81,9 +81,6 @@ Conceitos básicos, preparação do ambiente, semântica do HTML5, textos, títu
     - Parte 4 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex023/tabela004.html)🌐
     - Parte 5 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex023/tabela005.html)🌐
     - Parte 6 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex023/tabela006.html)🌐
-  - Exercício 024:
-    - Parte 1 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe001.html)🌐
-    - Parte 2 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex023/iframe002.html)🌐
 - Desafios 🏆:
   - Desafio 011 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d011/) 🌐
   - Desafio 012 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d012/) 🌐
@@ -91,3 +88,8 @@ Conceitos básicos, preparação do ambiente, semântica do HTML5, textos, títu
     - Parte 1: [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d013/d013-01.html)🌐
     - Parte 2: [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d013/d013-02.html)🌐
   - Desafio 014 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d014/)🌐
+### 📖 Módulo 4 - Aprofundando os conhecimentos
+- Exercícios 📝:
+  - Exercício 024:
+    - Parte 1 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe001.html)🌐
+    - Parte 2 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe002.html)🌐
