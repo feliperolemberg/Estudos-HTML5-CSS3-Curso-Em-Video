@@ -20,8 +20,8 @@ Conceitos básicos, preparação do ambiente, semântica do HTML5, textos, títu
   - Exercício 004 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex004/) 🌐
   - Exercício 006 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex006/) 🌐
   - Exercício 007:
-    - Parte 1: - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex007/html4.html) 🌐
-    - Parte 2: - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex007/html5.html) 🌐
+    - Parte 1 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex007/html4.html) 🌐
+    - Parte 2 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex007/html5.html) 🌐
   - Exercício 008 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex008/) 🌐
   - Exercício 008b - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex008b/) 🌐
   - Exercício 009 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex009/) 🌐
@@ -85,11 +85,17 @@ Conceitos básicos, preparação do ambiente, semântica do HTML5, textos, títu
   - Desafio 011 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d011/) 🌐
   - Desafio 012 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d012/) 🌐
   - Desafio 013:
-    - Parte 1: [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d013/d013-01.html)🌐
-    - Parte 2: [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d013/d013-02.html)🌐
+    - Parte 1 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d013/d013-01.html)🌐
+    - Parte 2 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d013/d013-02.html)🌐
   - Desafio 014 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d014/)🌐
 ### 📖 Módulo 4 - Aprofundando os conhecimentos
 - Exercícios 📝:
   - Exercício 024:
     - Parte 1 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe001.html)🌐
     - Parte 2 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe002.html)🌐
+    - Parte 3 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe003.html)🌐
+    - Parte 4 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe004.html)🌐
+    - Parte 5 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe005.html)🌐
+    - Parte 6 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/exercicios/ex024/iframe006.html)🌐
+- Desafios 🏆:
+  - Desafio 015 - [Visualizar](https://feliperolemberg.github.io/Estudos-HTML5-CSS3-CEV/desafios-exercicios/desafios/d015/)🌐
